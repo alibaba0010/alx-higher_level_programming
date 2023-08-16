@@ -2,8 +2,9 @@
 
 if __name__ == "__main__":
     """Print the addition of all arguments."""
-    from sys import sys
-    result = 0
-    for arg in argv[1:]:
-        result += int(arg)
-    print("{:d}".format(result))
+    import sys
+
+    total = 0
+    for i in range(len(sys.argv) - 1):
+        total += int(sys.argv[i + 1])
+    print("{:d}".format(total))
