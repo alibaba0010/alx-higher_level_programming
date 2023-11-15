@@ -1,13 +1,13 @@
 #!/usr/bin/node
-const SquarePrev = require("./5-square");
+const SquarePrev = require('./5-square');
 
 class Square extends SquarePrev {
-  charPrint(c) {
+  charPrint (c) {
     if (c === undefined) {
-      c = "X";
+      c = 'X';
     }
     for (let i = 0; i < this.height; i++) {
-      let sq = "";
+      let sq = '';
       for (let j = 0; j < this.width; j++) {
         sq += c;
       }
