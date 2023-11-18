@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Lists states"""
+"""Lists all states"""
 
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
